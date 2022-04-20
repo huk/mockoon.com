@@ -117,7 +117,7 @@ To stop a process, type the following command: `mockoon-cli stop {id|name}`, whe
 ### Step 6. View a running mock's logs
 
 Mockoon CLI log all events like requests and errors in your user folder in the following files:
-`~/mockoon-cli/logs/{process_name}-out.log` and `~/mockoon-cli/logs/{process_name}-error.log`.
+`~/.mockoon-cli/logs/{process_name}-out.log` and `~/.mockoon-cli/logs/{process_name}-error.log`.
 
 The `{process_name}-error.log` file contains server errors that only occur at startup time and prevent the mock API from running (port in use, etc.).
 
